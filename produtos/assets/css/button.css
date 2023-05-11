@@ -13,7 +13,8 @@
 .button-products {
     border: 1px solid #dc143c;
     border-radius: 70px 20px;
-    padding: 10px 15px;
+    padding: 7px 15px;
+    margin: 15px;
     background-color: #550615;
     font-size: 15px;
     font-weight: 100;

@@ -13,7 +13,7 @@
 
 
 .card-item {
-    background-color: #2b0303;
+    background-color: #140c0c;
     width: 21%;
     padding: 20px 0;
     text-align: center;
@@ -31,7 +31,7 @@
 
 .card-item img {
     width: 70%;
-    border-radius: 7px;
+    border-radius: 50px;
 
 }
 
