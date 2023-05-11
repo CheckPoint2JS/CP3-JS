@@ -1,0 +1,33 @@
+.button {
+    border: 2px solid #dc143c;
+    border-radius: 70px 30px;
+    padding: 5px 30px;
+    background-color: #dc143c;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+
+.button-products {
+    border: 1px solid #dc143c;
+    border-radius: 70px 20px;
+    padding: 10px 15px;
+    background-color: #550615;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+
+.button:hover {
+    background-color: transparent;
+    color: #dc143c;
+}
+
+.button-products:hover{
+    background-color: transparent;
+    color: #dc143c;
+}
