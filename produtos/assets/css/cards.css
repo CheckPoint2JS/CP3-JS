@@ -25,8 +25,7 @@
     gap: 10px;
     border-radius: 37px;
     background: #140c0c;
-    box-shadow:  31px 31px 62px #0d0808,
-             -31px -31px 62px #1b1010;
+    box-shadow:  31px 31px 62px#0d0808,      -31px -31px 62px #1b1010;
     transition: .5s;
 
 }
