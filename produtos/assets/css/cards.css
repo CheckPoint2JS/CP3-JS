@@ -13,7 +13,7 @@
 
 
 .card-item {
-    background-color: #140c0c;
+    background-color: #160c0c; 
     width: 21%;
     padding: 20px 0;
     text-align: center;
@@ -23,8 +23,10 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    box-shadow: 1px 1px 40px rgb(0, 0, 0);
-    border-radius: 7px;
+    border-radius: 37px;
+    background: #140c0c;
+    box-shadow:  31px 31px 62px #0d0808,
+             -31px -31px 62px #1b1010;
     transition: .5s;
 
 }
