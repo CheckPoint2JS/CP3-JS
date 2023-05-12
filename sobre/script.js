@@ -27,7 +27,7 @@ const menu = document.querySelector("body");
 checkbox.addEventListener("click", () => {
     if (checkbox.checked) {
         document.body.style.backgroundColor = "white";
-        menu.style.backgroundColor = "#white";
+        menu.style.backgroundColor = "black";
     } else {
         document.body.style.backgroundColor = "";
         menu.style.backgroundColor = "";

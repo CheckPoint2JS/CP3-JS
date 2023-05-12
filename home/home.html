@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./darkmode.css">
     <link rel="stylesheet" href="./slideshow.css">
-    <title>Document</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home </title>
 </head>
 <body>
 
@@ -19,20 +24,79 @@
                 <li><a href="../sobre/sobre.html">Sobre</a></li>
                 <li><a href="../contato/contato.html">Contato</a></li>
                 <li><a href="../produtos/produtos.html">Produtos</a></li>
-                <li>
-                    <label class="switch">
-                        <input type="checkbox">
-                     <span class="slider"></span>
-                </label>
-            </li>
             </ul>
         </nav>
+    
+        <div class="slider">
 
-        <div>
-            <img id="image"/>
+            <div class="slides">
+    
+                <!-- bolinhas do slide -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!-- fim das bolinhas do slide -->
+    
+                <!-- Imagens dos Slides -->
+                <div class="slide primeiro">
+                    <img src="./img/foto1.jpg" alt="Shrekão">
+                </div>
+    
+                <!-- Segunda imagem -->
+                <div class="slide">
+                    <img src="./img/foto2.jpg" alt="Shrekão">
+                </div>
+    
+                <!-- Terceira imagem -->
+                <div class="slide">
+                    <img src="./img/foto3.jpg" alt="Shrekão">
+                </div>
+                
+                <!-- Quarta imagem -->
+                <div class="slide">
+                    <img src="./img/foto4.jpg" alt="Shrekão">
+                </div>
+
+                <!-- Quinta imagem -->
+                <div class="slide">
+                    <img src="./img/foto5.jpg" alt="Shrekão">
+                </div>
+
+                <!-- Sexta imagem -->
+                <div class="slide">
+                    <img src="./img/foto6.jpg" alt="Shrekão">
+                </div>
+                <!-- fim do slide imagens -->
+    
+                <!-- navegação automatica -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+    
+            </div>
+    
+            <!-- navegação manual -->
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+       </header>   
+
+        <div class="container-texto">
+            <p>Éclat d'Or é uma marca de joias luxuosas com uma história rica e uma visão única. Fundada em Paris, na França, a marca combina tradição e inovação para criar peças únicas e deslumbrantes que são verdadeiras obras de arte. Cada peça é cuidadosamente elaborada à mão pelos melhores artesãos da França, usando apenas os materiais mais preciosos.<br>
+
+                <br>A Éclat d'Or é uma marca que celebra a beleza feminina, com designs que capturam a elegância, a sofisticação e o glamour da mulher moderna. Suas coleções são inspiradas nas últimas tendências da moda e são perfeitas para mulheres que apreciam a qualidade, a exclusividade e o requinte.<br>
+                
+                <br>Além disso, a Éclat d'Or é comprometida com práticas sustentáveis ​​e éticas em todas as etapas do processo de produção. A marca trabalha com fornecedores que garantem que seus materiais são obtidos de forma responsável e que seus artesãos são tratados com justiça.<br>
+                
+                <br>Com uma linha de joias que inclui anéis, colares, brincos e pulseiras, a Éclat d'Or é uma marca que se destaca pela sua beleza atemporal e qualidade excepcional. Cada peça é projetada para ser passada de geração em geração, tornando-se um tesouro de família que pode ser apreciado por muitos anos. Se você está procurando uma joia especial que combine elegância e sofisticação, a Éclat d'Or é a escolha perfeita para você.</p>
         </div>
-
-   
 
     <script src="./script.js"></script>
 </body>
