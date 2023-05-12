@@ -25,12 +25,16 @@
     font-size: 23px;
     opacity: 85%;
     gap: 20px;
+    position: relative;
+    left: 700px;
 }
 
 .header-menu ul {
     display: flex;
     font-size: 20px;
     gap: 20px;
+    position: relative;
+    left: 700px;
 }
 
 a {
@@ -47,34 +51,16 @@ ul, ol {
 }
 
 body {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
-.content {
-    height: 590px;
-    width: 935px;
+
+#image{
+    width: 600px;
+    height: auto;
+    margin-top: 200px;
     border-radius: 20px;
-    overflow: hidden;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 300px;
+    right: 600px;
 }
-
-.navigation {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translate(-50%);
-    display: flex;
-}
-
-.bar {
-    width: 70px;
-    height: 17px;
-    border: 2px solid #fff;
-    margin: 6px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
