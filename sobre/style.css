@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #422121;
+    background-color: #311515;
 }
 
 .header-page {
@@ -97,7 +97,7 @@ html {
     justify-content: center;
     gap: 10px;
     border-radius: 37px;
-    background: #2c0909;
+    background: #1b0404;
     box-shadow:  31px 31px 62px#0d0808,      -31px -31px 62px #1b1010;
     transition: .5s;
 

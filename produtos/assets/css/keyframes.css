@@ -1,0 +1,10 @@
+@keyframes arrow {
+    50% {
+        transform: translateY(-6px);
+    }
+    
+    50% {
+        transform: translateY(6px);
+    }
+
+}

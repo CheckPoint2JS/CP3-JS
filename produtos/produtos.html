@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- linkando com a Css -->
     <link rel="stylesheet" href="./assets/css/base.css">
@@ -17,6 +18,8 @@
     <link rel="stylesheet" href="./assets/css/hero.css">
     <link rel="stylesheet" href="./assets/css/button.css">
     <link rel="stylesheet" href="./assets/css/cards.css">
+    <link rel="stylesheet" href="./assets/css/keyframes.css">
+    <link rel="stylesheet" href="./assets/css/darkmode.css">
 </head>
 
 <body>
@@ -29,6 +32,10 @@
                 <li><a href="">Home</a></li>
                 <li><a href="../contato/contato.html">Contato</a></li>
                 <li><a href="../sobre/sobre.html">Sobre</a></li>
+                <li><div class="checkbox-apple">
+                    <input class="darkmode" id="check-apple" type="checkbox">
+                    <label for="check-apple"></label>
+                  </div></li>
             </ul>
         </nav>
 
@@ -39,7 +46,9 @@
             <h1>Éclat d'Or</h1>
             <p>Perfeição em forma de joias, exclusividade para os seus momentos mais preciosos  
             </p>
-            <a href="#container2" class="button">Conhecer Produtos</a>
+            <a href="#container2" class="button">Conhecer Produtos
+                <i class="fa-solid fa-circle-arrow-down arrow"></i>
+            </a>
         </div>
     </div>
 
@@ -143,6 +152,8 @@
 
     <div class="container bg-image-2" id="container3">
     </div>
+
+    <script src="./script.js"></script>
 
 </body>
 
