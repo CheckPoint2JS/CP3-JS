@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./darkmode.css">
+    <link rel="stylesheet" href="./slideshow.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="header-page">
+        <h2><strong>Éclat d'Or</strong></h2>
+        
+        <nav class="header-menu">
+            <ul>
+                <li><a href="../sobre/sobre.html">Sobre</a></li>
+                <li><a href="../contato/contato.html">Contato</a></li>
+                <li><a href="../produtos/produtos.html">Produtos</a></li>
+                <li>
+                    <label class="switch">
+                        <input type="checkbox">
+                     <span class="slider"></span>
+                </label>
+            </li>
+            </ul>
+        </nav>
+
+    </header>
+
+        <div class="content">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1">
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                <input type="radio" name="slide" id="slide5">
+
+                <div class="slide s1">
+                    <img src="./img/foto1.jpg" alt="Foto com aliança">
+                </div>
+
+                <div class="slide">
+                    <img src="./img/foto2.jpg" alt="Foto com aliança">
+                </div>
+
+                <div class="slide">
+                    <img src="./img/foto3.jpg" alt="Foto com aliança">
+                </div>
+
+                <div class="slide">
+                    <img src="./img/foto4.jpg" alt="Foto com aliança">
+                </div>
+
+                <div class="slide">
+                    <img src="./img/foto5.jpg" alt="Foto com aliança">
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <label class="bar" for="slide1"><label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+            <label class="bar" for="slide5"></label>
+        </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

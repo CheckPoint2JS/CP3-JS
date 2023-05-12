@@ -18,7 +18,7 @@
 
 /* The slider */
 .slider {
-  --background: #861717;
+  --background: #28096b;
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -44,7 +44,7 @@
 }
 
 input:checked + .slider {
-  background-color: #861717;
+  background-color: #522ba7;
 }
 
 input:checked + .slider:before {
